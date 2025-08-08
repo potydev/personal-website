@@ -2,6 +2,26 @@
 
 A modern personal portfolio website built with React, Vite, and Tailwind CSS.
 
+## 🖼️ Screenshots
+
+### Homepage
+![Homepage](src/assets/Homepage.png)
+
+### About Me Section
+![About Me](src/assets/About%20me.png)
+
+### Skills Section
+![Skills](src/assets/Skills%20.png)
+
+### Featured Projects
+![Featured Projects](src/assets/fratured.png)
+
+### Journey/Experience
+![Journey](src/assets/journay.png)
+
+### Footer
+![Footer](src/assets/footer.png)
+
 ## 🚀 Live Demo
 
 Visit the live website: [Your Vercel URL will be here]
