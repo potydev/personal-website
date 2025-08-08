@@ -24,7 +24,7 @@ A modern personal portfolio website built with React, Vite, and Tailwind CSS.
 
 ## 🚀 Live Demo
 
-Visit the live website: [Your Vercel URL will be here]
+Visit the live website: https://personal-website-flax-one-83.vercel.app/
 
 ## 🛠️ Technologies Used
 
