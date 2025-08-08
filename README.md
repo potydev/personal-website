@@ -1,117 +1,98 @@
 # Personal Website
 
-Website personal yang unik dengan tema dark mode, animasi GSAP, dan menampilkan informasi profil, skill, project, serta pengalaman.
+A modern personal portfolio website built with React, Vite, and Tailwind CSS.
 
-## Fitur Utama
+## 🚀 Live Demo
 
-- Desain Dark Mode yang Unik
-- Animasi GSAP yang Menawan
-- Responsive Design
-- Integrasi Media Sosial (Instagram, GitHub, Email)
-- Custom Cursor
-- Scroll Progress Bar
-- Navigation Menu Interaktif
-- Section Skills & Expertise
-- Section Featured Projects
-- Section Journey & Experience (Timeline)
+Visit the live website: [Your Vercel URL will be here]
 
-## Instalasi dan Menjalankan Project
+## 🛠️ Technologies Used
 
-Untuk menjalankan project ini secara lokal, ikuti langkah-langkah berikut:
+- **React 19** - Modern React with hooks
+- **Vite** - Fast build tool and dev server
+- **Tailwind CSS** - Utility-first CSS framework
+- **Framer Motion** - Animation library
+- **GSAP** - Advanced animations
+- **Three.js** - 3D graphics
+- **Radix UI** - Accessible UI components
+- **Lucide React** - Beautiful icons
 
-### 1. Clone Repository
+## 📦 Features
 
+- ✨ Modern and responsive design
+- 🎨 Smooth animations and transitions
+- 📱 Mobile-first approach
+- ⚡ Fast loading with Vite
+- 🎯 SEO optimized
+- 🌙 Dark/Light theme support
+- 📊 Interactive components
+- 🎭 Custom cursor effects
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- Node.js (v18 or higher)
+- pnpm (recommended) or npm
+
+### Installation
+
+1. Clone the repository
 ```bash
-git clone https://github.com/potydev/personal-website.git # (Jika Anda mengunggah ke GitHub)
+git clone https://github.com/your-username/personal-website.git
 cd personal-website
 ```
 
-Jika Anda mendapatkan file ZIP, ekstrak file tersebut dan navigasikan ke direktori `personal-website`.
-
-### 2. Instal Dependencies
-
-Project ini menggunakan `pnpm` sebagai package manager. Pastikan Anda sudah menginstalnya. Jika belum, Anda bisa menginstalnya dengan npm:
-
-```bash
-npm install -g pnpm
-```
-
-Setelah itu, instal semua dependencies project:
-
+2. Install dependencies
 ```bash
 pnpm install
 ```
 
-### 3. Jalankan Development Server
+3. Start development server
+```bash
+pnpm dev
+```
 
-Untuk menjalankan website dalam mode pengembangan:
+4. Open [http://localhost:5173](http://localhost:5173) in your browser
+
+### Build for Production
 
 ```bash
-pnpm run dev
+pnpm build
 ```
 
-Website akan berjalan di `http://localhost:5173` (atau port lain jika 5173 sudah digunakan). Anda bisa membukanya di browser Anda.
-
-### 4. Build untuk Produksi
-
-Untuk membuat versi produksi dari website (file statis yang siap di-deploy):
-
-```bash
-pnpm run build
-```
-
-Hasil build akan berada di direktori `dist/`.
-
-## Struktur Project
+## 📁 Project Structure
 
 ```
-personal-website/
-├── public/
-├── src/
-│   ├── assets/
-│   ├── components/
-│   │   ├── About.jsx
-│   │   ├── Contact.jsx
-│   │   ├── CustomCursor.jsx
-│   │   ├── Hero.jsx
-│   │   ├── Navigation.jsx
-│   │   ├── Projects.jsx
-│   │   ├── ScrollProgress.jsx
-│   │   ├── Skills.jsx
-│   │   ├── Timeline.jsx
-│   │   └── ui/ (komponen UI dari shadcn/ui)
-│   ├── hooks/
-│   │   └── use-mobile.js
-│   ├── lib/
-│   │   └── utils.js
-│   ├── App.css
-│   ├── App.jsx
-│   ├── index.css
-│   └── main.jsx
-├── .gitignore
-├── index.html
-├── package.json
-├── pnpm-lock.yaml
-├── postcss.config.js
-├── tailwind.config.js
-└── vite.config.js
+src/
+├── components/          # React components
+│   ├── ui/            # Reusable UI components
+│   ├── About.jsx      # About section
+│   ├── Contact.jsx    # Contact form
+│   ├── Hero.jsx       # Hero section
+│   ├── Navigation.jsx # Navigation bar
+│   ├── Projects.jsx   # Projects showcase
+│   ├── Skills.jsx     # Skills section
+│   └── Timeline.jsx   # Experience timeline
+├── hooks/             # Custom React hooks
+├── lib/               # Utility functions
+└── assets/            # Static assets
 ```
 
-## Teknologi yang Digunakan
+## 🚀 Deployment
 
-- **React.js**: Library JavaScript untuk membangun antarmuka pengguna.
-- **Vite**: Build tool yang cepat untuk project frontend.
-- **Tailwind CSS**: Framework CSS utility-first untuk styling yang cepat dan responsif.
-- **GSAP (GreenSock Animation Platform)**: Library animasi JavaScript yang powerful untuk animasi berkualitas tinggi.
-- **Lenis**: Library untuk smooth scrolling.
-- **Lucide React**: Icon library.
-- **Shadcn/ui**: Komponen UI yang dapat dikustomisasi.
+This project is configured for easy deployment on Vercel:
 
-## Kontak
+1. Push your code to GitHub
+2. Connect your repository to Vercel
+3. Vercel will automatically detect the Vite configuration
+4. Deploy with one click!
 
-- **Instagram**: @potyhi
-- **GitHub**: @potydev
-- **Email**: dapotmatthew02@gmail.com
+## 📝 License
 
----
+This project is open source and available under the [MIT License](LICENSE).
+
+## 🤝 Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
 
